@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comfy Store</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="nav-account">
+        <a href="">Sign in / Guest</a>
+        <a href="">Create Account</a>
+    </div>
+    <nav>
+        <a href="#" class="menu"><i class="fa fa-bars-staggered"></i></a>
+        <button class="btn-c">C</button>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#products">Products</a></li>
+            <li><a href="#cart">Cart</a></li>
+        </ul>
+        <div class="nav-icons">
+            <i class="fa fa-moon"></i>
+            <a href=""><i class="fas fa-shopping-cart"></i></a>
+            <label>0</label>
+        </div>
+    </nav>
+    <div id="home" class="content">
+        <section>
+            <form id="site-description">
+                <h1>We are changing the way people shop</h1>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore repellat explicabo enim
+                    soluta temporibus asperiores aut obcaecati perferendis porro nobis.</p>
+                <button>our products</button>
+            </form>
+            <div id="sallon-images">
+                <div class="first-sallon"></div>
+                <div class="second-sallon"></div>
+            </div>
+        </section>
+        <div class="featured">
+            <h1>Featured Products</h1>
+            <hr>
+            <div id="items">
+               <div class="item">
+                   <div style="background-image: url('images/avant-grade.PNG');" class="img"></div>
+                    <div>
+                       <h2>Avant-Grade Lamp</h2>
+                       <p>$179.99</p>
+                    </div>
+               </div>
+               <div class="item">
+                   <div style="background-image: url('images/coffee-table.PNG');" class="img"></div>
+                    <div>
+                       <h2>Coffee Table</h2>
+                       <p>$179.99</p>
+                    </div>
+               </div>
+               <div class="item">
+                    <div style="background-image: url('images/comfy-bed.PNG');" class="img"></div>
+                    <div>
+                        <h2>Comfy Bed</h2>
+                        <p>$129.99</p>
+                    </div>
+               </div>
+            </div>
+        </div>
+    </div>
+    <div id="about" class="content">
+        <h1>We love <span>comfy</span></h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore quae quam blanditiis vitae, dolor non eveniet ipsum voluptatibus, quia optio aut! Perferendis ipsa cumque ipsam nostrum reprehenderit ad illo sed officiis ea tempore! Similique eos minima sit porro, ratione aspernatur!</p>
+    </div>
+    <div id="products" class="content">
+        <div id="products-input">
+            <div class="div-input">
+                <label>Search Product</label>
+                <input type="text">
+            </div>
+            <div class="div-input">
+                <label>Select Category</label>
+                <select>
+                    <option>all</option>
+                    <option>Tables</option>
+                    <option>Chairs</option>
+                    <option>Kids</option>
+                    <option>Sofas</option>
+                    <option>Bids</option>
+                </select>
+            </div>
+            <div class="div-input">
+                <label>Select Company</label>
+                <select>
+                    <option>all</option>
+                    <option>Modenza</option>
+                    <option>Luxora</option>
+                    <option>Artifex</option>
+                    <option>Comfora</option>
+                    <option>Homestead</option>
+                </select>
+            </div>
+            <div class="div-input">
+                <label>Sort By</label>
+                <select>
+                    <option>a-z</option>
+                    <option>z-a</option>
+                    <option>high</option>
+                    <option>low</option>
+                </select>
+            </div>
+            <div class="div-input">
+                <div>
+                    <label>Select Price</label>
+                    <label>$1,000.00</label>
+                </div>
+                <input type="range">
+                <div>
+                    <b>0</b>
+                    <b>Max : $1,000.00</b>
+                </div>
+            </div>
+            <div class="div-input" id="div-checkbox">
+                <label>Free Shipping</label>
+                <input type="checkbox">
+            </div>
+            <div class="two-buttons">
+                <button>Search</button>
+                <button style="background-color: #C149AD;">Reset</button>
+            </div>
+        </div>
+        <div class="under-inputs">
+            <div class="under1">
+                <p>22 products</p>
+                <div class="under2">
+                    <i class="fas fa-th grid-icon" id="grid-icon"></i>
+                    <i class="fas fa-bars list-icon"></i>
+                </div>
+            </div>
+            <hr>
+        </div>
+        <div id="items">
+            <div class="item">
+                <div style="background-image: url('images/avant-grade.PNG');" class="img"></div>
+                 <div>
+                    <h2>Avant-Grade Lamp</h2>
+                    <p>$179.99</p>
+                 </div>
+            </div>
+            <div class="item">
+                <div style="background-image: url('images/chic-chair.PNG');" class="img"></div>
+                 <div>
+                    <h2>Chic Chair</h2>
+                    <p>$339.99</p>
+                 </div>
+            </div>
+            <div class="item">
+                <div style="background-image: url('images/coffee-table.PNG');" class="img"></div>
+                 <div>
+                    <h2>Coffee Table</h2>
+                    <p>$179.99</p>
+                 </div>
+            </div>
+            <div class="item">
+                <div style="background-image: url('images/comfy-bed.PNG');" class="img"></div>
+                <div>
+                    <h2>Comfy Bed</h2>
+                    <p>$129.99</p>
+                </div>
+           </div>
+           <div class="item">
+                <div style="background-image: url('images/contemporary-sofa.PNG');" class="img"></div>
+                <div>
+                    <h2>Contemporary Sofa</h2>
+                    <p>$159.99</p>
+                </div>
+           </div>
+           <div class="item">
+                <div style="background-image: url('images/cutting-edge-bed.PNG');" class="img"></div>
+                <div>
+                    <h2>Cutting-Edge Bed</h2>
+                    <p>$84.99</p>
+                </div>
+           </div>
+           <div class="item">
+                <div style="background-image: url('images/futuristic-shelves.PNG');" class="img"></div>
+                <div>
+                    <h2>Futuristic Shelves</h2>
+                    <p>$94.99</p>
+                </div>
+           </div>
+           <div class="item">
+                <div style="background-image: url('images/glass-table.PNG');" class="img"></div>
+                <div>
+                    <h2>Glass Table</h2>
+                    <p>$159.99</p>
+                </div>
+           </div>
+           <div class="item">
+                <div style="background-image: url('images/king-bed.PNG');" class="img"></div>
+                <div>
+                    <h2>King Bed</h2>
+                    <p>$189.99</p>
+                </div>
+           </div>
+           <div class="item">
+                <div style="background-image: url('images/lounge-chair.PNG');" class="img"></div>
+                <div>
+                    <h2>Lounge Chair</h2>
+                    <p>$259.99</p>
+                </div>
+                </div>
+           </div>
+           <div class="page-button">
+                <button>prev</button>
+                <button>1</button>
+                <button>2</button>
+                <button>3</button>
+                <button>next</button>
+           </div>
+    </div>
+    <div id="cart" class="content">
+        <h1>Your Cart Is Empty</h1>
+        <hr>
+    </div>
+</body>
+</html>

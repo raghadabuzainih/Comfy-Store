@@ -95,6 +95,10 @@ button{
     display: block;
 }
 
+#home {
+    display: block; 
+  }
+
 section{
     display: flex;
     gap: 4rem;
